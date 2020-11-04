@@ -1,0 +1,227 @@
+/* Boutons */ @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+/* Paragraphe */ @import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@300&display=swap');
+/* Titres */ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+/* Titre de page */ @import url('https://fonts.googleapis.com/css2?family=Syne+Tactile&display=swap');
+
+/* Partie 1 : header */
+body{
+     background-color: #CDFFB5;
+}
+
+header{
+     display: flex;
+     flex-direction: row;
+     height: 150px;
+     background-color: #54E50E;
+}
+
+.return-index{
+     width: 49%;
+     height: 150px;
+     display: flex;
+}
+
+.return-index a{
+     font-family: 'Roboto Mono';
+     font-size: 35px;
+     color: #FFFFFF;
+     text-decoration: none;
+     margin: auto;
+     padding: 27px 27px;
+     transition-duration: 0.5s;
+}
+
+.return-index a:hover{
+     background-color: #D5FFC0;
+     font-weight: bold;
+     color: black;
+}
+
+.title{
+     text-align: center;
+     margin: auto;
+     margin-left: 200px;
+     color: #ffffff;
+}
+
+.title h1{
+     font-size: 50px;
+     font-family: 'Syne Tactile';
+     letter-spacing: 2px;
+}
+/* Partie 2 : Présentation du monument */
+
+.C1{
+     width: 90%;
+     height: 700px;
+     background-color: #00E256;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 100px;
+     margin-bottom: 50px;
+     display: flex;
+     justify-content: space-around;
+}
+
+.Informations{
+     width: 40%;
+     height: 500px;
+     border: #FFFFFF solid 2px;
+     margin: auto;
+     background-color: #22CB46;
+     display: flex;
+     flex-direction: column;
+}
+
+.image{
+     margin: auto;
+     background-color:  #FFFFFF;
+     border: #FFFFFF solid 2px;
+}
+
+.Informations .titre{
+     height: 100px;
+     width: 100%;
+     color: white;
+     background-color: #48FF88;
+     font-family: 'Roboto Mono';
+     display: flex;
+}
+
+.Informations .titre h2{
+     margin: auto;
+     font-size: 40px;
+}
+
+.Informations .contenu{
+     width: 100%;
+     height: 300px;
+     font-size: 25px;
+     color: #FFFFFF;
+     font-family: 'Commissioner';
+     display: flex;
+}
+
+.Informations .contenu p{
+     margin: auto 20px;
+}
+
+.Informations  .liens{
+     height: 100px;
+     font-family: 'Roboto Mono';
+     background-color: #077407;
+     display: flex;
+}
+
+.Informations .liens a{
+     width: 100%;
+     height: 100%;
+     text-align: center;
+     text-decoration: none;
+     font-size: 19px;
+     font-weight: bold;
+     color: #FFFFFF;
+     letter-spacing: 1px;
+     transition: 0.3s;
+     display: flex;
+}
+
+.liens a span{
+     margin: auto;
+} 
+
+.Informations .liens a:hover{
+     background-color: white;
+     color: black;
+     box-shadow: 0 0 10px white ,0 0 40px white,0 0 80px white,0 0 10px white;
+}
+
+#footer{
+     width: 100%;
+     height: 175px;
+     background-color: rgb(32, 41, 90);
+     display: flex;
+     justify-content: space-around;
+     border-top: 2px rgb(181, 181, 231) solid;
+}
+
+/* Partie 3 : Offre */
+
+.C_offre{
+     width: 80%;
+     height: 600px;
+     margin-right: auto;
+     margin-left: auto;
+     margin-top: 50px;
+     margin-bottom: 50px;
+     display: flex;
+     justify-content: space-around;
+}
+
+
+.Informations_Offre-bordure_droite{
+     background-color: #00E256;
+     display: flex;
+     justify-content: space-around;
+     margin: auto;
+     border-radius: 0% 100px 100px 0%;
+}
+
+.Informations_Offre-bordure_gauche{
+     background-color: #00E256;
+     display: flex;
+     justify-content: space-around;
+     margin: auto;
+     border-radius: 100px 0% 0% 100px;
+}
+
+.contenu_Offre{
+     font-size: 20px;
+     font-family: 'Commissioner';
+     color: #FFFFFF;
+     margin: auto;
+     padding: 40px;
+
+}
+
+.image_Offre{
+     margin: auto;
+     background-color:  #FFFFFF;
+     border: #FFFFFF solid 2px;
+     border-radius: 200px;
+     box-shadow: 50px 0px #00E256 , 75px 0px #6cffa4;
+}
+
+.image_Offre img{
+     border-radius: 200px;
+}
+/* Partie 4 : footer */
+
+#footer div{
+     height: 100%;
+     width: 300px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+}
+
+#footer div p{
+     color: #ffffff;
+     font-family: 'Roboto Mono';
+     text-align: center;
+}
+
+.copyright{
+     font-size: 30px;
+}
+
+.C2{
+     width: 80%;
+     height: 600px;
+     margin-right: auto;
+     margin-left: auto;
+     margin-top: 50px;
+     margin-bottom: 50px;
+     display: flex;
+     justify-content: space-around;
+}
